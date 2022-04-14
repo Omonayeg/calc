@@ -108,7 +108,7 @@ p {
     margin: 5% auto;
     
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin: 15px auto 2px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
