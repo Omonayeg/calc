@@ -51,6 +51,7 @@ button {
     font-weight: bold;
     font-family: inherit;
     color: hsl(222, 26%, 31%);
+    touch-action: manipulation;
 }
 
 p {
@@ -62,7 +63,7 @@ p {
 }
 
 .calc-container {
-    margin: 6% auto 1%;
+    margin: 5% auto 1%;
 }
 
 .equals, .reset {
@@ -113,14 +114,14 @@ p {
 
 @media only screen and (max-width: 900px) {
     body {
-        margin-top: 1%;
+        margin-top: 3%;
         width: 375px;
     }
     #numbersection {
-        width: 70%;
+        width: 75%;
     }
     #visualsection {
-        width: 70%;
+        width: 75%;
         margin-top: 5px;
     }
     .equals, .reset {
@@ -144,22 +145,12 @@ p {
         font-size: 0.6rem;
         font-weight: 400;
     }
+}
 
     a {
         text-decoration: none;
     }
 
-    /* @media only screen and (min-width: 1200px) {
-        body {
-            margin: 1% auto 1%;
-        }
-        #numbersection {
-            width: 38%;
-            height: 63vh;
-        }
-        #visualsection {
-            width: 38%;
-           
-        }
     
-        } */
+    
+       
