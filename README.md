@@ -1,5 +1,7 @@
 # Frontend Mentor - Calculator app
 
+Here's a live link of mine; https://omonayeg.github.io/calc/
+
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
